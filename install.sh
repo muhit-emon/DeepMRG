@@ -7,4 +7,4 @@ chmod +x diamond
 rm diamond-linux64.tar.gz
 
 # conda environment installation
-#conda env create -f environment.yml
+conda env create -f environment.yml
