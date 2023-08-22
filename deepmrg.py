@@ -131,7 +131,8 @@ def compute_bitscore_feature_mat_with_clusters_of_ref_exp_and_annotation(bitscor
     deepmrg_annotation_filename = output_prefix + "_DeepMRG_annotation.tsv"
 
     annot_file = open(deepmrg_annotation_filename, "a")
-
+    annot_file.write("Protein_ID" + "\t" + "Prediction(probability %)")
+    annot_file.write("\n")
     for sequence in SeqIO.parse(seq_fasta_file, "fasta"):
 
         prot_description = str(sequence.description)
