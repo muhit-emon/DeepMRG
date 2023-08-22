@@ -1,0 +1,13 @@
+name: deepmrg
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - nextflow
+  - gxx
+  - pandas
+  - numpy
+  - tensorflow
+  - scikit-learn
+  - biopython
