@@ -3,9 +3,9 @@
 // Enable DSL 2 syntax
 nextflow.enable.dsl = 2
 
-params.prot = "36.faa" // 36 has been used just to initialize. It will be overridden when given as --prot
-params.out_prefix = "output"
-params.path_of_bacmet_exp_db_clusters_json = "${projectDir}/clusters_of_ref_exp_mrg.json" // change it while deploying to other machine
+params.prot = "36.faa" // 36.faa has been used just to initialize. It will be overridden when given as --prot
+params.out_prefix = "output" // output has been used just to initialize. It will be overridden when given as --out_prefix
+params.path_of_bacmet_exp_db_clusters_json = "${projectDir}/clusters_of_ref_exp_mrg.json"
 params.path_of_deepmrg_model = "${projectDir}/DeepMRG.h5"
 
 
