@@ -18,7 +18,7 @@ To activate the environment, run the following command <br>
 <pre>
 conda activate deepmrg
 </pre>
-# Usage (1)
+# Usage (1) on protein sequences
 Go inside DeepMRG directory. <br> <br>
 <b>If you want to run DeepMRG on a protein fasta file to predict bacterial metal resistance genes, use the following command</b> <br>
 <pre>
@@ -27,7 +27,7 @@ rm -r work
 </pre>
 An output tsv file named <b>TEST_DeepMRG_annotation.tsv</b> will be generated inside DeepMRG directory. <br><br>
 You need to replace <b>/path/to/protein/fasta/file</b> with your protein fasta file path and the output prefix <b>TEST</b> with your own output prefix.
-# Usage (2)
+# Usage (2) on (meta)genomic contigs (nucleic acid sequences)
 Go inside DeepMRG directory. <br> <br>
 <b>If you want to run DeepMRG on a (meta)genomic contig fasta file to predict bacterial metal resistance genes, use the following command</b> <br>
 <pre>
