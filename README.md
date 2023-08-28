@@ -26,7 +26,7 @@ nextflow run protein_pipeline.nf --prot /path/to/protein/fasta/file --out_prefix
 rm -r work
 </pre>
 An output tsv file named <b>TEST_DeepMRG_annotation.tsv</b> (contains MRG predictions by DeepMRG) will be generated inside DeepMRG directory. <br><br>
-You need to replace <b>/path/to/protein/fasta/file</b> with your protein fasta file path and the output prefix <b>TEST</b> with your own output prefix.
+Replace <b>/path/to/protein/fasta/file</b> with your protein fasta file path and the output prefix <b>TEST</b> with your own output prefix.
 # Usage (2) on (meta)genomic contigs (nucleic acid sequences)
 Go inside DeepMRG directory. <br> <br>
 <b>To run DeepMRG on (meta)genomic assembled contigs (must be in fasta format) to predict MRGs, use the following command</b> <br>
@@ -41,4 +41,4 @@ The following files will be generated inside DeepMRG directory.
   <li><b>TEST_predicted_proteins.faa</b> (contains prodigal predicted proteins from contigs)</li>
 </ul>
 
-You need to replace <b>/path/to/contig/fasta/file</b> with your contig fasta file path and the output prefix <b>TEST</b> with your own output prefix.
+Replace <b>/path/to/contig/fasta/file</b> with your contig fasta file path and the output prefix <b>TEST</b> with your own output prefix.
