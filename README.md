@@ -47,4 +47,6 @@ With <b>--out_prefix TEST</b>, the following files will be generated inside Deep
   <li><b>TEST_predicted_proteins.faa</b> (contains prodigal predicted proteins from contigs)</li>
 </ul>
 
-Replace <b>/path/to/contig/fasta/file</b> with your contig fasta file path and the output prefix <b>TEST</b> with your own output prefix.
+Replace <b>/path/to/contig/fasta/file</b> with your contig fasta file path and the output prefix <b>TEST</b> with your own output prefix. <br><br>
+Pipeline for predicting bacterial MRGs from (meta)genomic assembled contigs using DeepMRG is shown below:
+![Fig6](https://github.com/muhit-emon/DeepMRG/assets/82660145/26fa6981-1bcd-44d0-9bc8-2f9baf461eee)
