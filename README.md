@@ -1,5 +1,5 @@
 # DeepMRG
-A multi-label classifier for predicting bacterial metal resistance genes using deep learning 
+DeepMRG is a multi-label deep learning classifier for predicting bacterial metal resistance genes (MRGs). It can be used to predict MRGs from protein sequences provided in fasta file. It also can be applied on (meta)genomic assembled contigs (in fasta) to predict MRGs.
 # Requirements
 <ol>
   <li>Linux operating system</li>
