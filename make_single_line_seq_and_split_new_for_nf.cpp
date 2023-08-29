@@ -96,7 +96,7 @@ void split_contig_files_for_parallel_prodigal(string contig_file)
 	
 	int N = number_of_seqs_in_file(contig_file);
 	
-	if (N >= 10){
+	if (N >= n){
 
 		int n_seqs_in_each_file = N / n;
 		int excess_to_be_put_in_last_file = N % n;
