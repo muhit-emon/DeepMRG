@@ -12,7 +12,7 @@ git clone https://<i></i>github.com/muhit-emon/DeepMRG.git
 cd DeepMRG
 bash install.sh
 </pre>
-# Conda environment activation
+# conda environment activation
 After installation of DeepMRG, a conda environment named <b>deepmrg</b> will be created.<br>
 To activate the environment, run the following command <br>
 <pre>
