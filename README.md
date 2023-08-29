@@ -49,4 +49,4 @@ With <b>--out_prefix TEST</b>, the following files will be generated inside Deep
 
 Replace <b>/path/to/contig/fasta/file</b> with your contig fasta file path and the output prefix <b>TEST</b> with your own output prefix. <br><br>
 Pipeline for predicting bacterial MRGs from (meta)genomic assembled contigs using DeepMRG is shown below:
-![Fig6](https://github.com/muhit-emon/DeepMRG/assets/82660145/26fa6981-1bcd-44d0-9bc8-2f9baf461eee)
+![Fig6](https://drive.google.com/file/d/1Nph1cXD6rJN0VSrwdKKpTVfUisx0rB6H/view?usp=sharing)
