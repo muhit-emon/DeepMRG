@@ -30,7 +30,7 @@ The command line options for this script (<b>protein_pipeline.nf</b>) are: <br><
 <b>--out_prefix</b>: The prefix of the output file name <br><br>
 With <b>--out_prefix TEST</b>, An output tsv file named <b>TEST_DeepMRG_annotation.tsv</b> (contains MRG predictions by DeepMRG) will be generated inside DeepMRG directory. <br><br>
 Replace <b>/path/to/protein/fasta/file</b> with your protein fasta file path and the output prefix <b>TEST</b> with your own output prefix.
-# (2) Usage on (meta)genomic contigs (nucleic acid sequences)
+# (2) Usage on (meta)genomic contigs (DNA sequences)
 Go inside DeepMRG directory. <br> <br>
 <b>To run DeepMRG on (meta)genomic assembled contigs (must be in fasta format) to predict MRGs, use the following command</b> <br>
 <pre>
