@@ -26,7 +26,7 @@ nextflow run protein_pipeline.nf --prot &lt/path/to/protein/fasta/file&gt --out_
 rm -r work
 </pre>
 The command line options for this script (<b>protein_pipeline.nf</b>) are: <br><br>
-<b>--prot</b>: The fasta file containing protein sequences to be classified <br><br>
+<b>--prot</b>: The fasta file containing protein sequences to be classified <br>
 <b>--out_prefix</b>: The prefix of the output file name <br><br>
 With <b>--out_prefix TEST</b>, An output tsv file named <b>TEST_DeepMRG_annotation.tsv</b> (contains MRG predictions by DeepMRG) will be generated inside DeepMRG directory. <br><br>
 Replace <b>/path/to/protein/fasta/file</b> with your protein fasta file path and the output prefix <b>TEST</b> with your own output prefix.
@@ -38,7 +38,7 @@ nextflow run contig_pipeline.nf --contig &lt/path/to/contig/fasta/file&gt --out_
 rm -r work
 </pre>
 The command line options for this script (<b>contig_pipeline.nf</b>) are: <br><br>
-<b>--contig</b>: The fasta file containing contigs <br><br>
+<b>--contig</b>: The fasta file containing contigs <br>
 <b>--out_prefix</b>: The prefix of the output file name <br><br>
 With <b>--out_prefix TEST</b>, the following files will be generated inside DeepMRG directory.
 
