@@ -51,3 +51,14 @@ Replace <b>/path/to/contig/fasta/file</b> with your contig fasta file path and t
 Pipeline for predicting bacterial MRGs from (meta)genomic assembled contigs using DeepMRG is shown below:
 
 ![Fig6](https://drive.google.com/uc?export=view&id=1Nph1cXD6rJN0VSrwdKKpTVfUisx0rB6H)
+
+# Output
+<b>&lt;prefix of output file name&gt;_DeepMRG_annotation.tsv</b> is the main output file that contains MRG prediction. The output file is a tab separated file with each line containing a protein sequence header and the corresponding MRG predictions. The sequences are in the same order as in the input fasta file. <br><br>
+
+![demo_output](https://drive.google.com/uc?export=view&id=1-pw5s0s6-eZwOe8OZ-woVWkd6kLqmNMM)
+
+The output file contains 2 columns:
+The 1st  column (Protein_ID) contains the header of the protein sequences in the input fasta file.
+The 2nd column (Prediction(probability %)) contains the prediction results with corresponding prediction probabilities calculated by DeepMRG. By default, the proteins with the prediction probability less than 70% are regarded as non-MRG.
+
+For example, protein 3 has been predicted to confer resistances to both Cu (with prediction probability of 99.84%) and Zn (with prediction probability of 86.56%). On the other hand, protein 5 has been predicted as a non-MRG as its prediction probability falls below 70%.
