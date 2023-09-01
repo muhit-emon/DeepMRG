@@ -1,6 +1,6 @@
 # DeepMRG
-DeepMRG is a multi-label deep learning classifier for predicting bacterial metal resistance genes (MRGs). It can be used to predict MRGs from protein sequences provided in fasta file. It also can be applied on (meta)genomic assembled contigs (in fasta) to predict MRGs.
-The web server of DeepMRG is available via <a href="https://deepmrg.cs.vt.edu/deepmrg">server version</a>. 
+DeepMRG is a multi-label deep learning classifier for predicting bacterial metal resistance genes (MRGs). It can be used to predict MRGs from protein sequences provided in fasta file. It also can be applied on (meta)genomic assembled contigs (in fasta) to predict MRGs. <br>
+This Github is the local version of DeepMRG. The web server of DeepMRG is available via <a href="https://deepmrg.cs.vt.edu/deepmrg">server version</a>. 
 # Requirements
 <ol>
   <li>Linux operating system</li>
