@@ -146,7 +146,7 @@ def compute_bitscore_feature_mat_with_clusters_of_ref_exp_and_annotation(bitscor
     deepmrg_annotation_filename = output_prefix + "_DeepMRG_annotation.tsv"
 
     annot_file = open(deepmrg_annotation_filename, "a")
-    annot_file.write("Protein_ID" + "\t" + "Prediction(probability %)")
+    annot_file.write("Protein_ID" + "\t" + "Prediction")
     annot_file.write("\n")
     for sequence in SeqIO.parse(seq_fasta_file, "fasta"):
 
@@ -166,7 +166,7 @@ def compute_bitscore_feature_mat_with_clusters_of_ref_exp_and_annotation(bitscor
             for i in range(len(deepmrg_pred_for_this_prot)):
                 if deepmrg_pred_for_this_prot[i] >= confidence_threshold: # prediction confidence
                     deepmrg_annot_for_this_prot+=index_of_metals_reverse[i]
-                    deepmrg_annot_for_this_prot+="(" + str(round((deepmrg_pred_for_this_prot[i]/5)*100, 2)) + " %)"
+                    #deepmrg_annot_for_this_prot+="(" + str(round((deepmrg_pred_for_this_prot[i]/5)*100, 2)) + " %)"
                     deepmrg_annot_for_this_prot+=","
             
             if len(deepmrg_annot_for_this_prot):
