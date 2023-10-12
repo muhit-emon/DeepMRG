@@ -60,6 +60,6 @@ Pipeline for predicting bacterial MRGs from (meta)genomic assembled contigs usin
 
 The output file contains 2 columns:<br><br>
 The 1st  column (Protein_ID) contains the header of the protein sequences in the input fasta file.<br><br>
-The 2nd column (Prediction) contains the prediction results of DeepMRG. By default, the proteins with the prediction score less than 3.5 (out of 5) are regarded as non-MRG.<br><br>
+The 2nd column (Prediction) contains the prediction results of DeepMRG. By default, the proteins with the prediction score less than 3.5 (out of 5) are considered as non-MRG.<br><br>
 
 For example, protein 3 has been predicted by DeepMRG to confer resistances to both Cu and Zn. On the other hand, protein 5 has been predicted as a non-MRG as its prediction score falls below 3.5.
