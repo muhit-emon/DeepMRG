@@ -56,7 +56,7 @@ Pipeline for predicting bacterial MRGs from (meta)genomic assembled contigs usin
 # Output
 <b>&lt;prefix of output file name&gt;_DeepMRG_annotation.tsv</b> is the main output file that contains MRG prediction. The output file is a tab separated file with each line containing a protein sequence header and the corresponding MRG predictions. The sequences are in the same order as in the input fasta file. <br><br>
 
-![demo_output](https://drive.google.com/uc?export=view&id=1-pw5s0s6-eZwOe8OZ-woVWkd6kLqmNMM)
+![demo_output](https://drive.google.com/uc?export=view&id=1xJeWZSlvlaNwTMnz609rAjJyDBtCKNgP)
 
 The output file contains 2 columns:<br><br>
 The 1st  column (Protein_ID) contains the header of the protein sequences in the input fasta file.<br><br>
