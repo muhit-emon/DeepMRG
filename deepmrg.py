@@ -63,7 +63,7 @@ index_of_metals_reverse = {
 def compute_bitscore_feature_mat_with_clusters_of_ref_exp_and_annotation(bitscore_distribution, seq_fasta_file, ref_exp_mrg_clusters_dict, DeepMRG_model1, DeepMRG_model2, DeepMRG_model3, DeepMRG_model4, DeepMRG_model5, output_prefix):
 
     x = []
-    bitscore_if_no_alignment_found = 5 # defalut bitscore is set to 5 if no alignment report is found
+    bitscore_if_no_alignment_found = 0 # defalut bitscore is set to 0 if no alignment report is found
     sorted_ref_exp_mrg_classes = sorted(ref_exp_mrg_clusters_dict.keys())
 
     index_of_proteins_in_list_x = {} # direct non-MRG will have index -1 and other seqs will have valid index as they will be fed to DeepMRG model.
