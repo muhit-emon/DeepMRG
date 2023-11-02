@@ -33,7 +33,7 @@ With <b>--out_prefix demo</b>, An output tsv file named <b>demo_DeepMRG_annotati
 Replace <b>/path/to/protein/fasta/file</b> with your protein fasta file path and the output prefix <b>demo</b> with your own output prefix.
 # (2) Usage on metagenomic or isolate assemblies (DNA sequences of assembled contigs)
 Go inside DeepMRG directory. <br> <br>
-<b>To run DeepMRG on (meta)genomic assembled contigs (must be in fasta format) to predict MRGs, use the following command</b> <br>
+<b>To run DeepMRG on metagenomic or isolate assembled contigs (must be in fasta format) to predict MRGs, use the following command</b> <br>
 <pre>
 nextflow run contig_pipeline.nf --contig &lt/path/to/contig/fasta/file&gt --out_prefix &ltprefix of output file name&gt
 rm -r work
@@ -49,9 +49,9 @@ With <b>--out_prefix demo</b>, the following files will be generated inside Deep
 </ul>
 
 Replace <b>/path/to/contig/fasta/file</b> with your contig fasta file path and the output prefix <b>demo</b> with your own output prefix. <br><br>
-Pipeline for predicting bacterial MRGs from (meta)genomic assembled contigs using DeepMRG is shown below:
+Pipeline for predicting bacterial MRGs from assembled contigs using DeepMRG is shown below:
 
-![Fig6](https://drive.google.com/uc?export=view&id=1Nph1cXD6rJN0VSrwdKKpTVfUisx0rB6H)
+![Fig6](https://drive.google.com/uc?export=view&id=1CKf_NAzzfiuuRonf-eB6bWV7DTgCVQBS)
 
 # Output
 <b>&lt;prefix of output file name&gt;_DeepMRG_annotation.tsv</b> is the main output file that contains MRG prediction. The output file is a tab separated file with each line containing a protein sequence header and the corresponding MRG predictions. The sequences are in the same order as in the input fasta file. <br><br>
