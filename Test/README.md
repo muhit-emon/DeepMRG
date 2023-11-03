@@ -4,18 +4,6 @@ At first, go inside the Test directory
 <pre>
 cd DeepMRG/Test
 </pre>
-# Evaluation on the test dataset (TEST.fasta)
-Execute the following command:
-<pre>
-nextflow run test_pipeline.nf --test_set TEST
-</pre>
-As output, a txt file named <b>TEST_classification_report.txt</b> will be generated inside the Test directory which contains the classification results of DeepMRG on TEST.fasta.
-# Evaluation on BacMet Predicted MRG DB partition 2 (BacMet_Predicted_MRG_DB_partition_2.fasta)
-Execute the following command:
-<pre>
-nextflow run test_pipeline.nf --test_set LOW
-</pre>
-As output, a txt file named <b>LOW_classification_report.txt</b> will be generated inside the Test directory which contains the classification results of DeepMRG on BacMet_Predicted_MRG_DB_partition_2.fasta.
 # Evaluation through 5-fold cross-validation
 To evaluate DeepMRG on the 1st validation fold, execute the following command:
 <pre>
@@ -46,3 +34,17 @@ To evaluate DeepMRG on the 5th validation fold, execute the following command:
 nextflow run test_pipeline.nf --test_set fold5
 </pre>
 As output, a txt file named <b>fold5_classification_report.txt</b> will be generated inside the Test directory which contains the classification results of DeepMRG on Fold5_Validation.fasta.
+
+# Evaluation on the test dataset (TEST.fasta)
+Execute the following command:
+<pre>
+nextflow run test_pipeline.nf --test_set TEST
+</pre>
+As output, a txt file named <b>TEST_classification_report.txt</b> will be generated inside the Test directory which contains the classification results of DeepMRG on TEST.fasta.
+
+# Evaluation on BacMet Predicted MRG DB partition 2 (BacMet_Predicted_MRG_DB_partition_2.fasta)
+Execute the following command:
+<pre>
+nextflow run test_pipeline.nf --test_set LOW
+</pre>
+As output, a txt file named <b>LOW_classification_report.txt</b> will be generated inside the Test directory which contains the classification results of DeepMRG on BacMet_Predicted_MRG_DB_partition_2.fasta.
