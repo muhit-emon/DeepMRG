@@ -1,7 +1,8 @@
 # Testing of DeepMRG
 We've included the datasets (TEST.fasta, BacMet_Predicted_MRG_DB_partition_2.fasta, Fold1_Validation.fasta, Fold2_Validation.fasta, Fold3_Validation.fasta, Fold4_Validation.fasta, and Fold5_Validation.fasta) used for DeepMRG evaluation. To test DeepMRG and reproduce the results with these datasets, please follow the instructions below.<br><br>
-At first, go inside the Test directory
+At first, activate the conda environment and go inside the Test directory
 <pre>
+conda activate deepmrg
 cd DeepMRG/Test
 </pre>
 # Evaluation through 5-fold cross-validation
