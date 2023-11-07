@@ -49,3 +49,12 @@ Execute the following command:
 nextflow run test_pipeline.nf --test_set LOW
 </pre>
 As output, a txt file named <b>LOW_classification_report.txt</b> will be generated inside the Test directory which contains the classification results of DeepMRG on BacMet_Predicted_MRG_DB_partition_2.fasta.
+
+# Evaluation on the independent dataset of STM 6070 HMR genes (STM6070_HMR_genes_IND.fasta)
+Execute the following command:
+<pre>
+nextflow run test_pipeline.nf --test_set IND
+</pre>
+As output, a txt file named <b>IND_classification_report.txt</b> will be generated inside the Test directory which contains the classification results of DeepMRG on STM6070_HMR_genes_IND.fasta.
+
+
