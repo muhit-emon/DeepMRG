@@ -12,4 +12,4 @@ mv prodigal.linux prodigal
 chmod +x prodigal
 
 # conda environment installation
-conda env create -f environment.yml
+#conda env create -f environment.yml
