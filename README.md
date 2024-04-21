@@ -14,6 +14,7 @@ Preprint: <a href="https://doi.org/10.1101/2023.11.14.566903"> https://doi.org/1
 git clone https://<i></i>github.com/muhit-emon/DeepMRG.git
 cd DeepMRG
 bash install.sh
+conda env create -f environment.yml
 </pre>
 # conda environment activation
 After installation of DeepMRG, a conda environment named <b>deepmrg</b> will be created.<br>
